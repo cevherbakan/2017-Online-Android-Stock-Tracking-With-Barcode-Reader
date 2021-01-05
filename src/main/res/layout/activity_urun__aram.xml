@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.neurobin.aapps.datepicker.URUN_ARAMA">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="354dp"
+        android:layout_height="421dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <Button
+            android:id="@+id/aramaBtn"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:text="ara"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="71dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/barkodBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="barkod" />
+
+            <EditText
+                android:id="@+id/bakodEdt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.30"
+                android:ems="10"
+                android:inputType="none|number"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="-56dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ürün Arama"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="-2dp"
+            tools:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+        <TextView
+            android:id="@+id/liste"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.66"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

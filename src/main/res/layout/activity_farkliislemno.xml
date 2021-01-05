@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.neurobin.aapps.datepicker.FARKLIISLEMNO">
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yıl:Ay:Gün giriniz" />
+
+        <EditText
+            android:id="@+id/tarihEdt"
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number|numberDecimal|phone|time" />
+
+        <Button
+            android:id="@+id/araBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ara" />
+
+        <ListView
+            android:id="@+id/listeList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

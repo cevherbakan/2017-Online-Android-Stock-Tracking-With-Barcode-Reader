@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.neurobin.aapps.datepicker">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity android:name=".kaydol"></activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".login"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BUGUNISLEMNO" />
+        <activity android:name=".BUGUNKI" />
+        <activity android:name=".FARKLI" />
+        <activity android:name=".FARKLIISLEMNO" />
+        <activity android:name=".HIZLI_ARA" />
+        <activity android:name=".ISLEM_ARA" />
+        <activity android:name=".ISLEMLER" />
+        <activity android:name=".NOT_EKLE" />
+        <activity android:name=".SATIS" />
+        <activity android:name=".TUM_NOTLAR" />
+        <activity android:name=".URUN" />
+        <activity android:name=".URUN_ARAMA" />
+        <activity android:name=".URUN_KAYIT" />
+        <activity android:name=".NOTLAR" />
+    </application>
+
+</manifest>
